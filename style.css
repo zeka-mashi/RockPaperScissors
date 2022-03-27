@@ -5,6 +5,7 @@
     width: 100%;
     background-image: url("https://raw.githubusercontent.com/zeka-mashi/MAL-Themes/master/chris_modern/assets/background2.png");
     position: fixed;
+    background-size: contain;
     z-index: -1;
 }
 

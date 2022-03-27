@@ -1,0 +1,32 @@
+.background {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://raw.githubusercontent.com/zeka-mashi/MAL-Themes/master/chris_modern/assets/background2.png");
+    position: fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+.container {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.disabled {
+    border: 3px solid gray;
+    background-color: darkgray;
+    color: lightgray;
+}
+
+button[class="action"]:hover {
+    background-color: #cecece;
+    cursor: pointer;
+}
+
+.action {
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 30px;
+}
